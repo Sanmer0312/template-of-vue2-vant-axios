@@ -27,9 +27,13 @@ a {
   text-decoration: none;
   color: inherit;
 }
+body {
+  background: #edf0f8;
+}
 #app {
   position: relative;
   max-width: 750px;
+  min-height: 100vh;
   margin: auto;
   font-size: 16px;
   word-break: break-all;
